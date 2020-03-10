@@ -31,7 +31,7 @@ To run **remconverter** navigate to the onBrand project directory with the file 
 
 If `relativePath` isn't specified, `./client/client.scss` will be used.
 
-`hubUrl` is required
+`multiplier` specifies the number to multiply all of the REM units by and is required.
 
 ## Output
 
