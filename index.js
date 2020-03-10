@@ -23,4 +23,6 @@ const result = scss.replace(
     match => Math.round((match * multiplier + Number.EPSILON) * 100) / 100
 );
 
-fs.writeFileSync(`./convertedRems`, result, "utf8");
+fs.writeFileSync(`./convertedRems.scss`, result, "utf8");
+
+console.log("REMs converted!");
