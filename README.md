@@ -25,9 +25,7 @@ To install **REM converter**:
 
 ## Usage
 
-To run **remconverter** inside an onBrand project directory, just type `remconverter`.
-
-To run **remconverter** outside an onBrand project directory, or to supply a path or hub URL explicitly, use:
+To run **remconverter** navigate to the onBrand project directory with the file to be converted and use:
 
     remconverter [relativePath] [multiplier]
 
